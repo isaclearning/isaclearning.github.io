@@ -817,8 +817,8 @@ h3 {
   top: 5px;
   padding: 5px;
   right: 0;
-  margin-top: -5px;
-  top: -32px;
+  margin-top: -20px;
+  top: -27px;
 }
 
 /* line 1, C:/Users/SPN Graphics/Desktop/CL September/Edu mark/207 Education/HTML/scss/_header.scss */
@@ -882,14 +882,18 @@ h3 {
 /* line 29, C:/Users/SPN Graphics/Desktop/CL September/Edu mark/207 Education/HTML/scss/_header.scss */
 .header-area .main-header-area .logo-img {
   text-align: center;
-
+  width: 50%;
+  
 }
+
 
 @media (max-width: 767px) {
   /* line 29, C:/Users/SPN Graphics/Desktop/CL September/Edu mark/207 Education/HTML/scss/_header.scss */
   .header-area .main-header-area .logo-img {
     text-align: left;
-    width: 50%;
+   width: 50%;
+   height: 100%;
+
   }
 }
 
@@ -898,6 +902,7 @@ h3 {
   .header-area .main-header-area .logo-img {
     text-align: left;
     width: 50%;
+
       }
 }
 
@@ -1323,7 +1328,7 @@ h3 {
   .slider_area .single_slider .slider_info h3 {
     font-size: 24px;
     letter-spacing: 0px;
-    line-height: 35px;
+    line-height: 87px;
     margin-top: 0;
     margin-bottom: 0;
   }
@@ -1353,7 +1358,7 @@ h3 {
 @media (max-width: 767px) {
   /* line 1, C:/Users/SPN Graphics/Desktop/CL September/Edu mark/207 Education/HTML/scss/_about.scss */
   .about_area {
-    padding: 100px 0;
+    padding: 0px 0;
   }
 }
 
@@ -1720,6 +1725,7 @@ h3 {
   color: #fff;
   text-transform: capitalize;
   margin-bottom: 40px;
+  width: 3.2rem;
 }
 
 @media (max-width: 767px) {
@@ -3328,8 +3334,8 @@ h3 {
 @media (max-width: 767px) {
   /* line 1, C:/Users/SPN Graphics/Desktop/CL September/Edu mark/207 Education/HTML/scss/_popular_courses.scss */
   .popular_courses {
-    padding-top: 100px;
-    padding-bottom: 100px;
+    padding-top: 65px;
+    padding-bottom: 0px;
   }
 }
 
